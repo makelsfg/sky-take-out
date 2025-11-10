@@ -63,25 +63,6 @@ sky:
   alioss:
     access-key-id: ${sky.alioss.access-key-id}
     access-key-secret: ${sky.alioss.access-key-secret}
-    bucket-name: ${sky.alioss.bucket-name}
     endpoint: ${sky.alioss.endpoint}
+    bucket-name: ${sky.alioss.bucket-name}
     region: ${sky.alioss.region}
-  wechat:
-    appid: ${sky.wechat.appid}
-    secret: ${sky.wechat.secret}
-    mchid: ${sky.wechat.mchid}
-    mch-serial-no: ${sky.wechat.mch-serial-no}
-    private-key-file-path: ${sky.wechat.private-key-file-path}
-    api-v3-key: ${sky.wechat.api-v3-key}
-    we-chat-pay-cert-file-path: ${sky.wechat.private-key-file-path}
-    notify-url: ${sky.wechat.notify-url}
-    refund-notify-url: ${sky.wechat.refund-notify-url}
-  baidu:
-    ak: ${sky.baidu.ak}
-    location-url: ${sky.baidu.location-url}
-    distance-url: ${sky.baidu.distance-url}
-  shop:
-    location:
-      lng: ${sky.shop.location.lng}
-      lat: ${sky.shop.location.lat}
-    limit-distance: ${sky.shop.limit-distance}
